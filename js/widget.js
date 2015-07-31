@@ -5,18 +5,22 @@ xhre.onreadystatechange = function () {
   if(xhre.readyState === 4 && xhre.status === 200) {
     var images = JSON.parse(xhre.responseText);
     var imageHTML = '<ul>';
+    
    //my for loop
   for (var i=0; i<images.length; i += 1) {
+        
         imageHTML += '<li> <img src="img/portfolio1/';
         imageHTML += images[i].image;
         imageHTML += '"> </li>';
         imageHTML += '<li> <p>';
         imageHTML += images[i].caption;
         imageHTML += '</p> </li>';
+        
       }
     
     //
      imageHTML += '</ul>';
+     
     document.getElementById('images').innerHTML = imageHTML;
   }
 };
