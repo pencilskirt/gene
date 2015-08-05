@@ -7,3 +7,7 @@ first commit
 Carousel works but needs to be refined.
 
 -Improved home page and navigation bar.
+
+-Used Foundation's grid system to lay-out CV and about page. Improved styling and added a logo
+ on navigation bar. Adapted page layout for different media queries. Cleaned up CSS sheets a little.
+  Added new fonts.
