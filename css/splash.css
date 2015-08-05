@@ -18,13 +18,13 @@ h1 {
   font-size: 2.625rem;  
   font-weight: normal;
   line-height: 1.3;
-  color: rgba(255,127,0,0.4);
-  text-shadow: 0 0 5px rgba(255,127,0,0.5);
+  color: rgba(255,127,0);
+ 
 
 }
 
 h2 {
-  font-size: 1.3125em; /* 53px/16px  */
+  font-size: .8em; /* 53px/16px  */
   font-weight: normal;
   line-height: 1.1;
   margin: 0 0 .5em; /* 0 0 26px */
@@ -39,6 +39,8 @@ h3 {
   line-height: 1.2;
   margin-bottom: 1.7em; /* 34px */
 }
+
+
 
 img {
   max-width: 90%;
@@ -82,24 +84,31 @@ a:active {
   height: 700px;
   background: black url('../img/splash.png') no-repeat center;
   background-size: cover;
-  border-bottom: 3px solid darkorange;
 }
 
-
+.portfolios-title {
+  font-size: 2em;
+  text-align: center;
+  
+}
 
 .title {
-  color: rgba(255,127,0,0.4);
-   text-shadow: 0 0 5px rgba(255,127,0,0.5);
+  color: rgba(255,127,0,0.9);
   font-size: 3.625rem;  /* 26px/16px */
 }
 
-.intro {
-  font-size: 1.25em; /* 20px/16px */
-  line-height: 1.6;  
+.sub-title {
+  color: rgba(255,127,0,0.7);
+}
+
+.top-bar-logo {
+  padding: 10px 9px 3px;
+  display: inline-block;
 }
 
 .main-header{
   text-align: center;
+  margin-top: 20px;
   padding-top: 70px;
   
 }
@@ -119,6 +128,8 @@ a:active {
   border-bottom: 2px solid lightblue;
 }
 
+
+
 .callout {
   font-size: 1.25em;
   border-bottom: 3px solid lightblue;
@@ -130,18 +141,23 @@ a:active {
 
 .main-footer {
   padding-top: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
   border-bottom: 10px solid darkorange;
 }
 
-.t-border {
+.t-border, .b-border-blue {
   border-top: 2px solid lightblue;
+}
+
+.b-border {
+  border-bottom: 3px solid darkorange;
+  padding-top: 30px;
 }
 
 /* Layout Styles ------------------ */
 
-.primary-content, 
-.secondary-content {
+.primary-content/*, 
+.secondary-content*/ {
   width: 75%;
   padding-left: 50px;
   padding-right: 50px;
@@ -160,6 +176,24 @@ a:active {
 /*  box-shadow: 15px 15px 10px rgba(0,0,0 .8);*/
   box-shadow: 0px 15px 10px -12px rgba(0,0,0, .8);
 }
+
+
+.genequote {
+  color: white;
+  text-align: left;
+  padding: 18% 14%;
+  border-top: 10px solid darkorange;
+  margin: 105px 0 60px;
+  background: #434a52 url('../img/antiquity.jpg') no-repeat center;
+  background-size: cover;
+/*  box-shadow: 15px 15px 10px rgba(0,0,0 .8);*/
+  box-shadow: 0px 15px 10px -12px rgba(0,0,0, .8);
+}
+
+.intro {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6;  
+}
 .icon {
   padding-top: 20px;
   width: 30px;
@@ -167,7 +201,7 @@ a:active {
 
 /* Floated Columns ------------------ */
 
-.portfolio1,
+/*.portfolio1,
 .portfolio2 {
   width: 46.5%;
 }
@@ -178,7 +212,7 @@ a:active {
 
 .portfolio2 {
   float: right;
-}
+}*/
 
 /* Float Clearfix ------------------ */
 
