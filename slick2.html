@@ -14,23 +14,13 @@
   		body {
   			background: #000;
   		}
-  		.slider {
-  			width: 500px;
-  			margin: 20px auto;
-  			
-  			text-align: center;
-  		}
 
-  		h1{
-  			padding: 60px 40px;
-			background: #000;
-  		}
+      h5{
+        padding: 100px 40px;
+      background: #000;
+      }
 
-  		.slider div {
-  			margin-right: 50px;
-  			text-align: center;
 
-  		}
   	</style>
   </head>
   <body>
@@ -67,42 +57,60 @@
 
 </div>
 <div class="row">
-<div class=" contain-to-grid b-border-blue"></div>
+<div class="contain-to-grid b-border-blue"></div>
 </div>
 </div>
 
    <!-- End Top Bar -->
-  <div class="slider">
-    <div><h1><img src="img/portfolio1/conjuregirl.png" ></h1></div>
-    	
-    <div><h1><img src="img/portfolio1/barnfire.png" ></h1></div>
-	<div><h1><img src="img/portfolio1/ancestors.png" ></h1></div>
-	<div><h1><img src="img/portfolio1/calabash.png" ></h1></div>
-	<div><h1><img src="img/portfolio1/bodyimage.png" ></h1></div>
-	<div><h1><img src="img/portfolio1/daybrake.png" ></h1></div>
-	<div><h1><img src="img/portfolio1/gatherings.png" ></h1></div>
-	<div><h1><img src="img/portfolio1/goatsmilk.png" ></h1></div>
-	<div><h1><img src="img/portfolio1/jambalaya.png" ></h1></div>
 
+   <!-- Slick Carousel Slider -->
+<div class="row">
+<div class="small-10 medium-10 medium-centered large-12 large-centered columns">
+  <div class="slider">
+     
+    <!-- <div><h5><img src="img/portfolio1/barnfire.png" ><h5></div>
+    <div><h5><img src="img/portfolio1/barnfire.png" ><h5></div>
+    <div><h5><img src="img/portfolio1/barnfire.png" ><h5></div>-->
+    <div><h5><img src="img/portfolio1/barnfire.png" ><h5></div> 
+    <div><h5><img src="img/portfolio1/ancestors.png" ></h5></div>
+    <div><h5><img src="img/portfolio1/daybrake.png" ></h5></div>
+    <div><h5><img src="img/portfolio1/gatherings.png" ></h5></div>
+    <div><h5><img src="img/portfolio1/goatsmilk.png" ></h5></div>
+    <div><h5><img src="img/portfolio1/jambalaya.png" ></h5></div>
   </div>
+</div>
+
+</div>
+<!-- End Slick Carousel Slider -->
+
+<!-- Scripts for Slick Carousel -->
 
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
-
   <script type="text/javascript">
     $(document).ready(function(){
       $('.slider').slick({
-		  dots: true,
-		  infinite: true,
-		  speed: 300,
-		  slidesToShow: 1,
-		  centerMode: true,
-		  variableWidth: true,
-		  adaptiveHeight: true
-});
-    });
+          centerMode: true,
+          variableWidth: true
+
+      });
+  });
   </script>
+<!-- Scripts for Slick Carousel -->
+
+<!-- Footer -->
+<div class="row contain-to-grid">
+  <div class="mediium-6 medium-centered columns b-border-blue hide-for-small"> </div>
+  
+
+</div>
+<footer class="main-footer hide-for-small contain-to-grid">
+  <p>All rights reserved by Gene Young.</p>
+  <p><img class="top-bar-logo" src="img/favicon.ico" alt="logo"></p>
+</footer>
+<!-- End Footer -->
+
 
   </body>
 </html>

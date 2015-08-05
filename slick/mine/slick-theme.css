@@ -2,7 +2,7 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url('./ajax-loader.gif') center center no-repeat;
+    background: #000 url('./ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
@@ -65,7 +65,7 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1;
 
     opacity: .5;
@@ -77,7 +77,7 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: -85px;
 }
 [dir='rtl'] .slick-prev
 {
