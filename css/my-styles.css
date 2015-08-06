@@ -15,7 +15,9 @@
 	margin-right: auto;
 }
 
-
+.body {
+	overflow: scroll;
+}
 
 /* Media Queries 
 ==========================*/
