@@ -12,15 +12,40 @@
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   	<style type="text/css">
   		
+      .slick-next {
+        right: -55px;
 
-  
+      }
+      
+      .slick-prev {
+        left: -58px;
+      }
 
       .imgWrap{
         outline: 0;
+        max-height: 500px;
+
+        text-align: center;
       }
 
+   
 
-    
+      .slick-slide{
+        max-height: 500px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 90%;
+      }
+   
+   .slider {
+    position: relative;
+    margin: 0 auto;
+   }
+
+      .imgWrap img {
+         position: relative;
+        vertical-align: middle;
+      }
 
   	</style>
   </head>
@@ -31,7 +56,7 @@
 <ul class ="title-area">  
   <li class="name">
     <h1>
-      <a href="#">Gene Young Photography</a>
+      <a href="index.html">Gene Young Photography</a>
     </h1>
     
   </li>
@@ -58,64 +83,93 @@
 
 </div>
 <div class="row">
-<div class="contain-to-grid b-border-blue"></div>
+<div class="contain-to-grid b-border-blue" style="margin-bottom:10px"></div>
 </div>
-</div>
+
 
    <!-- End Top Bar -->
 
    <!-- Slick Carousel Slider -->
 <div class="row">
-<div class="small-10 medium-10 medium-centered large-12 large-centered columns">
-  <div class="outerWrapper">
-    <div class="slider">
-   <!--    <div class="imgWrap"><h5><img src="img/portfolio1/barnfire.png" ><h5></div> 
-      <div class="imgWrap"><h5><img src="img/portfolio1/ancestors.png" ></h5></div>
-      <div class="imgWrap"><h5><img src="img/portfolio1/daybrake.png" ></h5></div>
-      <div class="imgWrap"><h5><img src="img/portfolio1/gatherings.png" ></h5></div>
-      <div class="imgWrap"><h5><img src="img/portfolio1/goatsmilk.png" ></h5></div>
-      <div class="imgWrap"><h5><img src="img/portfolio1/jambalaya.png" ></h5></div> -->
-     
-      <div class="imgWrap"><h5><img src="img/portfolio1/barnfire.png" ><h5></div> 
-      <div class="imgWrap"><h5><img src="img/portfolio1/ancestors.png" ></h5></div>
-      <div class="imgWrap"><h5><img src="img/portfolio1/daybrake.png" ></h5></div>
-      <div class="imgWrap"><h5><img src="img/portfolio1/gatherings.png" ></h5></div>
-      <div class="imgWrap"><h5><img src="img/portfolio1/goatsmilk.png" ></h5></div>
-      <div class="imgWrap"><h5><img src="img/portfolio1/jambalaya.png" ></h5></div>
-    </div>
-  </div>
+<div class="outerWrapper">
+  
+    <div class="innerWrapper small-11 small-centered medium-10 medium-centered large-10 large-centered columns">
+      
+      <div class="slider">
+        
+        <div class="imgWrap"><img src="img/portfolio1/ancestors.png" ></div>
+        <div class="imgWrap"><img src="img/portfolio1/daybrake.png" ></div>
+        <div class="imgWrap"><img src="img/portfolio1/gatherings.png" ></div>
+        <div class="imgWrap"><img src="img/portfolio1/goatsmilk.png" ></div>
+        <div class="imgWrap"><img src="img/portfolio1/jambalaya.png" ></div>
+      </div>
+    
+   </div>
 </div>
 
 </div>
 <!-- End Slick Carousel Slider -->
+
+
+<!-- Scripts for Slick Carousel -->
+
+<!-- Footer -->
+<div class="row contain-to-grid">
+  <div class="medium-12 medium-centered columns b-border-blue hide-for-small"> </div>
+</div>
+
+<div>
+<footer class="main-footer hide-for-small contain-to-grid">
+  <p>All rights reserved by Gene Young.</p>
+  <p><img class="top-bar-logo" src="img/favicon.ico" alt="logo"></p>
+</footer>
+</div>
+<!-- End Footer -->
 
 <!-- Scripts for Slick Carousel -->
 
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <!-- Foundation Top Bar -->
+  <script src="js/foundation.min.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
+  <script src="js/foundation/foundation.offcanvas.js"></script>
+
+
   <script type="text/javascript">
+
     $(document).ready(function(){
       $('.slider').slick({
-         
+
+  //    responsive: [
+
+
+  //   {
+  //     breakpoint: 480,
+  //     settings: {
+  //   arrows: false,
+  //   fade: false
+
+  //     }
+  //   }
+  //   // You can unslick at a given breakpoint now by adding:
+  //   // settings: "unslick"
+  //   // instead of a settings object
+  // ]
           
 
       });
   });
   </script>
-<!-- Scripts for Slick Carousel -->
 
-<!-- Footer -->
-<div class="row contain-to-grid">
-  <div class="mediium-6 medium-centered columns b-border-blue hide-for-small"> </div>
-  
+  <script>
+  $(document).ready(function(){
+  $(document).foundation();
+});
+</script>
 
-</div>
-<footer class="main-footer hide-for-small contain-to-grid">
-  <p>All rights reserved by Gene Young.</p>
-  <p><img class="top-bar-logo" src="img/favicon.ico" alt="logo"></p>
-</footer>
-<!-- End Footer -->
 
 
   </body>
