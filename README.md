@@ -16,6 +16,8 @@ Carousel works but needs to be refined.
 
  -Made modifications to Slick carousel on the slick2.html test page. Added a footer.
 
- -Updated scripts from Foundation 4 to Foundation 5 to get drop-down nav-bar links to work. Renamed the slick2.html page to portfolio1.html. Something in foundation.css is preventing the pages from scrolling since updating scripts.
+ -Updated scripts from Foundation 4 to Foundation 5 to get drop-down nav-bar links to work. Renamed the slick2.html page to portfolio1.html. Something is preventing the pages from scrolling since updating scripts.
 
  -Removed deprecated files.
+
+ -Fixed scrolling issue. Fixed toggle menu for small screens.
