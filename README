@@ -16,5 +16,7 @@ Carousel works but needs to be refined.
 
  -Made modifications to Slick carousel on the slick2.html test page. Added a footer.
 
- 	-created a new branch jsCleanup
+ -created a new branch jsCleanup
+
+ -Cleaned up html and css files. Modified portfolio pages to a scroll view of images. Carousel of images displays for tablets and desktops.
 
