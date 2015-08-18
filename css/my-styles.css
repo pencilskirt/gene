@@ -1,12 +1,9 @@
-
+/*
 .top-bar .name h1 a {
   color: #8e3a00;
  font-family: 'Alegreya', Arial, sans-serif; 
  font-size: 1.3rem;
 }
-
-}
-
 
 .button-group,
 .orbit-bullets {
@@ -23,20 +20,26 @@
 	width: 85px;
 	height: 35px;
 	color: darkorange;
-/*	  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;*/
-  
-}
-/* Media Queries 
-==========================*/
+}*/
 
-@media (max-width: 768) {
-	.orbit-prev,
-	.orbit-next {
-		display: none;
-	}
+/* Porfolio Page - Slick Carousel
+===================================*/
+/*.slick-next {
+right: -55px;
 }
 
+.slick-prev {
+left: -58px;
+}
 
+.imgWrap{
+outline: 0;
+
+}
+
+.slider {
+padding-top: 1.5;
+}
+*/
+
+      

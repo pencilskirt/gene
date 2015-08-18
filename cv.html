@@ -10,53 +10,46 @@
     <link rel="stylesheet" href="css/my-styles.css"/>
     <script src="/js/vendor/modernizr.js"></script>
   </head>
+
   <body> 
-
-    <!-- Top Bar -->
+<!-- Top Bar -->
 <div class="contain-to-grid fixed">
-<div class="top-bar" data-topbar>   <img class="top-bar-logo" src="img/favicon.ico">
-<ul class ="title-area">  
-  <li class="name">
-    <h1>
-      <a href="index.html">Gene Young Photography</a>
-    </h1>
-    
-  </li>
-
-  <li class="toggle-topbar menu-icon">
-    <a href=""><span></span></a>
-  </li>
-</ul>
-<section class="top-bar-section">
-  <ul class="right">
-    <li><a href="about.html">About Gene</a></li>
-    <li><a href="cv.html">Curriculum Vitae</a></li>
-    <li class="has-dropdown">
-      <a href="#">View Work</a>
-    <ul class="dropdown">  
-      <li><a href="portfolio1.html">Juba Images</a></li>
-      <li><a href="portfolio2.html">Captured Spirits</a></li>
-      <li><a href="portfolio3.html">New Orleans</a></li>
-      <li class="divider"><a href="book.html">The Book</a></li>
+  <div class="top-bar" data-topbar> <img class="top-bar-logo" src="img/favicon.ico">
+    <ul class ="title-area">  
+      <li class="name">
+        <h1>
+          <a href="index.html">Gene Young Photography</a>
+        </h1>
+      </li>
+      <li class="toggle-topbar menu-icon">
+        <a href=""><span></span></a>
+      </li>
     </ul>
-  </li>
-  </ul>
-</section>
-
+    <section class="top-bar-section">
+      <ul class="right">
+        <li><a href="about.html">About Gene</a></li>
+        <li><a href="cv.html">Curriculum Vitae</a></li>
+        <li class="has-dropdown">
+          <a href="#">View Work</a>
+          <ul class="dropdown">  
+            <li><a href="portfolio1.html">Juba Images</a></li>
+            <li><a href="portfolio2.html">Captured Spirits</a></li>
+            <li><a href="portfolio3.html">New Orleans</a></li>
+            <li class="divider"><a href="book.html">The Book</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <div class="row">
+    <div class="contain-to-grid b-border-blue" style="margin-bottom:10px"></div>
+  </div>
 </div>
+<!-- End Top Bar -->
+
+<!-- .primary-content -->
 <div class="row">
-<div class="contain-to-grid b-border-blue" style="margin-bottom:10px"></div>
-</div>
-</div>
-
-
-   <!-- End Top Bar -->
-
-    <div class="row">
-
-      <div class="contain-to-grid">
-
-
+  <div class="contain-to-grid">
     <div class="primary-content">
       <h1>Curriculum Vitae</h1>
       <p class="intro hide-for-small">
@@ -66,9 +59,10 @@
       - Gene Young
       </p>
     </div>
+<!-- End .primary-content -->
  
 
-
+<!--  .secondary-content -->
     <div class="secondary-content group small-10 small-centered medium-10 medium-centered large-10 large-centered columns" >
         <ul>
          <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
@@ -135,35 +129,32 @@
 
   </div>
 </div>
-
-            
-    <!-- End .secondary-content -->
+<!-- End .secondary-content -->
 
     
-    
+<!--  .main-footer -->  
     <footer class="main-footer">
       <p>All rights reserved by Gene Young.</p>
       <a href="#top">Back to top &raquo;</a>
       <p><img class="icon" src="img/favicon.ico" alt="logo"></p>
     </footer>
+<!--  End .main-footer -->  
 
-    <!-- Scripts -->
+<!-- Scripts -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="/js/vendor/jquery.js"></script>
+  <script src="/js/vendor/fastclick.js"></script>
+  <script src="/js/foundation.min.js"></script>
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script src="/js/vendor/jquery.js"></script>
-<script src="/js/vendor/fastclick.js"></script>
-<script src="/js/foundation.min.js"></script>
+<!-- Foundation Top Bar -->
+  <script src="js/foundation.min.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
+  <script src="js/foundation/foundation.offcanvas.js"></script>
 
-  <!-- Foundation Top Bar -->
-
-<script src="js/foundation.min.js"></script>
-<script src="js/foundation/foundation.topbar.js"></script>
-<script src="js/foundation/foundation.offcanvas.js"></script>
-
-<script>
-$(document).foundation();
-</script>
+  <script>
+  $(document).foundation();
+  </script>
 
   </body>
 </html>

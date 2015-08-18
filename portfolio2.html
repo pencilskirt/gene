@@ -1,84 +1,54 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio I</title>
-     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/splash.css">
-    <link rel="stylesheet" href="css/foundation.css"/>
-    <link rel="stylesheet" href="css/my-styles.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <script src="/js/vendor/modernizr.js"></script>
-    <style type="text/css">
-      @media only screen and (max-width: 42.063em) and 
-      (orientation: landscape) {
-        .top-bar {display: none;
-        }
-        
-      }
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/splash.css">
+  <link rel="stylesheet" href="css/foundation.css"/>
+  <link rel="stylesheet" href="css/my-styles.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
 
-      .slick-next {
-        right: -55px;
-      }
-      
-      .slick-prev {
-        left: -58px;
-      }
-
-      .imgWrap{
-      outline: 0;
-      
-      }
-
-      .slider {
-        padding-top: 1.5;
-      }
-
-    </style>
-
-    
-  </head>
-  <body>
-    <!-- Top Bar -->
+<body>
+<!-- Top Bar -->
 <div class="contain-to-grid fixed">
-  <div class="top-bar" data-topbar>   <img class="top-bar-logo" src="img/favicon.ico">
-  <ul class ="title-area">  
-    <li class="name">
-      <h1>
-        <a href="index.html">Gene Young Photography</a>
-      </h1>
-    </li>
-    <li class="toggle-topbar menu-icon">
-      <a href="#"><span></span></a>
-    </li>
-  </ul>
-  <section class="top-bar-section">
-    <ul class="right">
-      <li><a href="about.html">About Gene</a></li>
-      <li><a href="cv.html">Curriculum Vitae</a></li>
-      <li class="has-dropdown">
-        <a href="#">View Work</a>
-      <ul class="dropdown">  
-        <li><a href="portfolio1.html">Juba Images</a></li>
-        <li><a href="portfolio2.html">Captured Spirits</a></li>
-        <li><a href="portfolio3.html">New Orleans</a></li>
-        <li class="divider"><a href="book.html">The Book</a></li>
-      </ul>
-    </li>
+  <div class="top-bar" data-topbar> <img class="top-bar-logo" src="img/favicon.ico">
+    <ul class ="title-area">  
+      <li class="name">
+        <h1>
+          <a href="index.html">Gene Young Photography</a>
+        </h1>
+      </li>
+      <li class="toggle-topbar menu-icon">
+        <a href=""><span></span></a>
+      </li>
     </ul>
-  </section>
+    <section class="top-bar-section">
+      <ul class="right">
+        <li><a href="about.html">About Gene</a></li>
+        <li><a href="cv.html">Curriculum Vitae</a></li>
+        <li class="has-dropdown">
+          <a href="#">View Work</a>
+          <ul class="dropdown">  
+            <li><a href="portfolio1.html">Juba Images</a></li>
+            <li><a href="portfolio2.html">Captured Spirits</a></li>
+            <li><a href="portfolio3.html">New Orleans</a></li>
+            <li class="divider"><a href="book.html">The Book</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
   </div>
   <div class="row">
-    <div class="contain-to-grid b-border-blue" style="margin-bottom:10px">
-    </div>
+    <div class="contain-to-grid b-border-blue" style="margin-bottom:10px"></div>
   </div>
 </div>
+<!-- End Top Bar -->
 
-   <!-- End Top Bar -->
-
-   <!-- Slick Carousel Slider -->
+<!-- Slick Carousel Slider -->
 <div class="row">
   <div class="small-11 small-centered medium-10 medium-centered large-10 large-centered columns">   
     <div class="slider">
@@ -90,93 +60,69 @@
     </div>
   </div>
 </div>
+<!-- End Slick Carousel Slider -->
 
-   <!-- End Slick Carousel Slider -->
 
-
-<!-- Footer -->
+<!-- Footer Special for Portfolio Pages -->
 <div class="row contain-to-grid">
   <div class="medium-12 medium-centered columns b-border-blue hide-for-small"> </div>
 </div>
 
 
-<footer class="main-footer hide-for-small">
+<footer class="portfolio-footer hide-for-small">
   <p>All rights reserved by Gene Young.</p>
   <p><img class="top-bar-logo" src="img/favicon.ico" alt="logo"></p>
 </footer>
 
-<!-- End Footer -->
+<!-- Footer Special for Portfolio Pages -->
 
 <!-- Scripts for Slick Carousel -->
 
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
-
-
-
-
   <script type="text/javascript">
 
     $(document).ready(function(){
       $('.slider').slick({
 
 
-  slidesToShow: 1,
+        slidesToShow: 1,
 
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        infinite: true
-        
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        adaptiveHeight: true
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              infinite: true
+              
+            }
+          },
+          {
+            breakpoint: 740,
+           settings: "unslick"
+          },
+          {
+            breakpoint: 480,
+            settings: "unslick"
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
+           
+            });
+        });
+      </script>
+  <!-- End Scripts for Slick Carousel -->
 
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        adaptiveHeight: true
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-     
-      });
-  });
+  <!-- Scripts for Foundation Top Bar -->
+  <script src="js/foundation.min.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
+  <script>
+  $(document).foundation();
   </script>
-
-
-
-
-<script src="/js/vendor/jquery.js"></script>
-<script src="/js/vendor/fastclick.js"></script>
-<script src="/js/foundation.min.js"></script>
-
-  <!-- Foundation Top Bar -->
-<script src="js/foundation.min.js"></script>
-<script src="js/foundation/foundation.topbar.js"></script>
-<script src="js/foundation/foundation.offcanvas.js"></script>
-
-<script>
-$(document).foundation();
-</script>
-
-
-
+  <!-- End Scripts for Foundation Top Bar -->
   </body>
 </html>
         
