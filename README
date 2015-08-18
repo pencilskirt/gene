@@ -15,3 +15,6 @@ Carousel works but needs to be refined.
  -Added test files for using Slick carousel on the portfolio pages. CSS for Slick and previous pages are conflicting. 
 
  -Made modifications to Slick carousel on the slick2.html test page. Added a footer.
+
+ 	-created a new branch jsCleanup
+
