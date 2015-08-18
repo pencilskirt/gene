@@ -9,10 +9,10 @@ xhre.onreadystatechange = function () {
    //my for loop
   for (var i=0; i<images.length; i += 1) {
         
-        imageHTML += '<li> <img src="img/portfolio1/';
+        imageHTML += '<li style="list-style-type:none"> <img src="img/portfolio1/';
         imageHTML += images[i].image;
         imageHTML += '"> </li>';
-        imageHTML += '<li> <p>';
+        imageHTML += '<li style="list-style-type:none"> <p>';
         imageHTML += images[i].caption;
         imageHTML += '</p> </li>';
         

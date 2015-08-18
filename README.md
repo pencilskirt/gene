@@ -21,3 +21,5 @@ Carousel works but needs to be refined.
  -Removed deprecated files.
 
  -Fixed scrolling issue. Fixed toggle menu for small screens.
+
+ -Mobile landscape view has issues: Menu bar and image are too crowded. Added media query to hide top-bar navigation in mobile but it does not seem to work.
