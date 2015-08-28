@@ -122,16 +122,6 @@ a:active {
 }
 
 
-
-
-/*.top-bar {
-  background: #000;
-}
-*/
-
-
-
-
 .top-bar img {
   padding: 4px 22px 4px 6px;
  float:left;
@@ -181,6 +171,13 @@ background: #000;
   padding-bottom: 10px;
   border-bottom: 10px solid darkorange;
   text-align: center;
+}
+
+.portfolio-footer {
+padding-top: 30px;
+padding-bottom: 0;
+border-bottom: none;
+text-align: center;
 }
 
 .t-border, .b-border-blue {
@@ -251,25 +248,52 @@ margin-bottom: 40px;
   line-height: 1.6;  
 }
 
-/* Floated Columns ------------------ */
-
-/*.portfolio1,
-.portfolio2 {
-  width: 46.5%;
-}
-
-.portfolio1 {
-  float: left;
-}
-
-.portfolio2 {
-  float: right;
-}*/
-
-/* Float Clearfix ------------------ */
 
 .group:after {
   content: "";
   display: table;
   clear: both;
 }
+
+.top-bar .name h1 a {
+  color: #8e3a00;
+ font-family: 'Alegreya', Arial, sans-serif; 
+ font-size: 1.3rem;
+}
+
+.button-group,
+.orbit-bullets {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body {
+  overflow: scroll;
+}
+
+.arrow {
+  width: 85px;
+  height: 35px;
+  color: darkorange;
+}
+
+/* Porfolio Page - Slick Carousel
+===================================*/
+.slick-next {
+right: -55px;
+}
+
+.slick-prev {
+left: -58px;
+}
+
+.imgWrap{
+outline: 0;
+
+}
+
+.slider {
+padding-top: 1.5;
+}
+
